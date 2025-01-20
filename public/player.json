@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "player_role": "All-rounder",
+      "player_img": "https://i.ibb.co.com/Ldf5Kzb/player02.webp",
+      "rating": 95,
+      "price": 12000000,
+      "batting_style": "Left-Hand",
+      "jersey_number": 75
+    },
+    {
+      "name": "Chris Gayle",
+      "country": "West Indies",
+      "player_role": "Batsman",
+      "player_img": "https://i.ibb.co.com/28CghNV/player04.webp",
+      "rating": 92,
+      "price": 1000000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 333
+    },
+    {
+      "name": "Mustafizur Rahman",
+      "country": "Bangladesh",
+      "player_role": "Bowler",
+      "player_img": "https://i.ibb.co.com/KyKx59q/player1.jpg",
+      "rating": 88,
+      "price": 800000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 90
+    },
+    {
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "player_role": "Bowler",
+      "player_img": "https://i.ibb.co.com/YD00sJr/images.jpg",
+      "rating": 90,
+      "price": 11000000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 19
+    },
+    {
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "player_role": "Batsman",
+      "player_img": "https://i.ibb.co.com/WnKCvXf/images-1.jpg",
+      "rating": 85,
+      "price": 7000000,
+      "batting_style": "Left-Hand",
+      "jersey_number": 28
+    },
+    {
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "player_role": "All-rounder",
+      "player_img": "https://i.ibb.co.com/ncnnQv0/licensed-image.jpg",
+      "rating": 93,
+      "price": 15000000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 12
+    },
+    {
+      "name": "Imran Tahir",
+      "country": "South Africa",
+      "player_role": "Bowler",
+      "player_img": "https://i.ibb.co.com/Pmxkpt1/img-20230115-174507.jpg",
+      "rating": 87,
+      "price": 9000000,
+      "batting_style": "Left-Hand",
+      "jersey_number": 99
+    },
+    {
+      "name": "David Warner",
+      "country": "Australia",
+      "player_role": "Batsman",
+      "player_img": "https://i.ibb.co.com/F60bkmb/images-2.jpg",
+      "rating": 94,
+      "price": 1300000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 31
+    },
+    {
+      "name": "Kieron Pollard",
+      "country": "West Indies",
+      "player_role": "All-rounder",
+      "player_img": "https://i.ibb.co.com/CmpvPWk/licensed-image-1.jpg",
+      "rating": 91,
+      "price": 1500000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 55
+    },
+    {
+      "name": "Mashrafe Mortaza",
+      "country": "Bangladesh",
+      "player_role": "Bowler",
+      "player_img": "https://i.ibb.co.com/QJwCWYV/player.jpg",
+      "rating": 84,
+      "price": 600000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 2
+    },
+    {
+      "name": "Eoin Morgan",
+      "country": "England",
+      "player_role": "Batsman",
+      "player_img": "https://i.ibb.co.com/0npmtFc/images-3.jpg",
+      "rating": 89,
+      "price": 20000000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 16
+    },
+    {
+      "name": "Mohammad Nabi",
+      "country": "Afghanistan",
+      "player_role": "All-rounder",
+      "player_img": "https://i.ibb.co.com/xCgv0sh/images-4.jpg",
+      "rating": 88,
+      "price": 800000,
+      "batting_style": "Right-Hand",
+      "jersey_number": 7
+    }
+  ]
+  
