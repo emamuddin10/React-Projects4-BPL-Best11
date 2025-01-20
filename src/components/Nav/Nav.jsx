@@ -1,7 +1,9 @@
 import logo from "../../assets/logo.png";
 import bannerImg from "../../assets/banner-main.png";
 import bgImg from "../../assets/bg-shadow.png";
-const Nav = () => {
+import doller from "../../assets/Currency.png"
+// import cobi from "../../assets/images.jpg"
+const Nav = ({handleAddMoney,money}) => {
   return (
     <nav className="">
       <div className="flex justify-between py-5 ">
@@ -19,7 +21,8 @@ const Nav = () => {
           <li>
             <a href="">Shedules</a>
           </li>
-          <button className="border-2  px-3 y-2 rounded-lg">Coin</button>
+          <button className="flex items-center gap-x-1 border-2  px-3 y-2 rounded-lg">{money} Coin<img src={doller} alt="" /></button>
+          
         </div>
       </div>
 
@@ -29,7 +32,7 @@ const Nav = () => {
           <img className="text-center mx-auto" src={bannerImg} alt="" />
           <h2 className="text-2xl">Assemble Your Ultimate Dream 11 Cricket Team </h2>
           <p>Beyond Boundaries Beyond Limits</p>
-          <button className="bg-yellow-300 border-2 border-red-100-100 px-3 py-2 rounded-xl ">Claim Free Credit</button>
+          <button onClick={handleAddMoney} className="bg-yellow-300 border-2 border-red-100-100 px-3 py-2 rounded-xl ">Claim Free Credit</button>
           <hr />
         </div>
       </div>

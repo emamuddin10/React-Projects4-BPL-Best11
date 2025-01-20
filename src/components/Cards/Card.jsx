@@ -1,8 +1,8 @@
 import { FaUserLarge } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 
-const Card = ({ player }) => {
-  console.log(player);
+const Card = ({ player ,handleChoosePlayer}) => {
+  // console.log(player);
   const { country, batting_style, player_role, price } = player;
   return (
     <div>
@@ -30,7 +30,7 @@ const Card = ({ player }) => {
         </div>
         <div className="flex justify-between">
           <h4>Price: {price}</h4>
-          <button className="border-2 rounded-md p-3 border-gray-500">Choose Player</button>
+          <button onClick={()=>handleChoosePlayer(player)} className="border-2 rounded-md p-3 border-gray-500">Choose Player</button>
         </div>
       </div>
     </div>
