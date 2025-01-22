@@ -1,8 +1,10 @@
-# React + Vite
+Projects Name : Select Yours Players Dynamically.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A brief description of project : Choose Your Best 11" is a platform where users can select their favorite best eleven players, typically for sports like football or cricket. The site offers an interactive and engaging experience, allowing users to create their dream teams. Key features of the platform may include.
 
-Currently, two official plugins are available:
+Technologies used: React vite, tailwind css, javascipt, localstorage ,html,css etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+key features of your project: 
+    1.Interactive Team Customization
+    2.Real-Time Player Statistics
+    3.Social Sharing & Community Engagement
