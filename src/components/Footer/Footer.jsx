@@ -4,27 +4,31 @@ const Footer = () => {
   return (
     <footer className="relative bg-gray-900 text-white py-10 mt-40">
       {/* Newsletter Section */}
-      <div className="-mt-32">
-      <div className= "  max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-500 to-yellow-500 p-8 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold">Subscribe to our Newsletter</h2>
-        <p className="text-sm mt-2">
-          Get the latest updates and news right in your inbox!
-        </p>
-        <form className="mt-4 flex justify-center">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-4 py-2 rounded-l-lg focus:outline-none"
-            required
-          />
-          <button
-            type="submit"
-            className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-4 py-2 rounded-r-lg"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
+      
+      
+      <div className="bg-gradient-to-r from-blue-500 to-purple-600">
+        <div className="-mt-32 bg-gradient-to-r from-blue-500 to-purple-600">
+          <div className="  max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-500 to-yellow-500 p-8 rounded-lg shadow-lg">
+            <h2 className="text-2xl font-bold">Subscribe to our Newsletter</h2>
+            <p className="text-sm mt-2">
+              Get the latest updates and news right in your inbox!
+            </p>
+            <form className="mt-4 flex justify-center">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="px-4 py-2 rounded-l-lg focus:outline-none"
+                required
+              />
+              <button
+                type="submit"
+                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-4 py-2 rounded-r-lg"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
 
       {/* Footer Content */}
