@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Nav handleAddMoney={handleAddMoney} money={money}></Nav>
-      <Players></Players>
+      <Players money={money}></Players>
       <Footer></Footer>
     </>
   )

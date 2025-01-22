@@ -1,5 +1,7 @@
 import { FaUserLarge } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
+import { Toaster } from "react-hot-toast";
+
 
 const Card = ({ player ,handleChoosePlayer}) => {
   // console.log(player);
@@ -33,7 +35,9 @@ const Card = ({ player ,handleChoosePlayer}) => {
           <button onClick={()=>handleChoosePlayer(player)} className="border-2 rounded-md p-3 border-gray-500">Choose Player</button>
         </div>
       </div>
+      <Toaster />
     </div>
+
   );
 };
 

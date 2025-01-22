@@ -12,7 +12,8 @@ const Cards = ({handleChoosePlayer}) => {
 
    },[])
 
-  return (
+  return ( 
+    
     <div >
      
       {/* cards  */}

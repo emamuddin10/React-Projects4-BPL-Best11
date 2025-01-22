@@ -2,17 +2,26 @@ import { useState } from "react";
 import Cards from "../Cards/Cards";
 // import { hydrateRoot } from "react-dom/client";
 import Selected from "../Selected/Selected";
+import toast, { Toaster } from "react-hot-toast";
 
-const Players = () => {
+const Players = ({money}) => {
    const [selected,setSelected]=useState(true)
    const [chooses,setChooses]=useState([])
    console.log(chooses)
    
-
+  
    const handleChoosePlayer = (selectedPlayer)=>{
-    console.log('added player',selectedPlayer)
-    const newSelectedPlayers = [...chooses,selectedPlayer]
-    setChooses(newSelectedPlayers)
+    
+    if(money <= 0){
+      toast.error("you have not enough money")
+    }
+    else{
+      toast.success('player added succesfuly')
+      console.log('added player',selectedPlayer)
+      const newSelectedPlayers = [...chooses,selectedPlayer]
+      setChooses(newSelectedPlayers)
+
+    }
     
 
 
@@ -31,8 +40,9 @@ const Players = () => {
 
       {/* available players cart */}
        {
-        selected ? <Cards handleChoosePlayer={handleChoosePlayer}></Cards> :<Selected chooses={chooses}></Selected>
+        selected ? <Cards handleChoosePlayer={handleChoosePlayer}></Cards> :<Selected setChooses={setChooses} chooses={chooses}></Selected>
        }
+       <Toaster/>
     </div>
   );
 };
