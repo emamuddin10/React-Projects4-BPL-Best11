@@ -8,29 +8,39 @@ const Players = ({money}) => {
    const [selected,setSelected]=useState(true)
    const [chooses,setChooses]=useState([])
    const [unique,setUnique]=useState([])
-   console.log(chooses)
+   console.log('chooses',chooses)
+   console.log('unick',unique)
+
    
   
    const handleChoosePlayer = (selectedPlayer)=>{
-     const uniquePlayer= unique.includes(selectedPlayer)
+     const uniquePlayer= chooses.includes(selectedPlayer)
 
-     if(!uniquePlayer){
-       unique.push(selectedPlayer)
-     }else{
-       return toast.error('this player already added')
-     }
-     console.log(output)
-    
-    if(money <= 0){
+     if(money <= 0){
       toast.error("you have not enough money")
     }
     else{
+     if(!uniquePlayer){
+      // chooses.push(selectedPlayer)
+      if(chooses.length >5){
+        return toast.error('You can not added more than 6 player')
+      }
+
       toast.success('player added succesfuly')
-      console.log('added player',selectedPlayer)
+      // console.log('added player',selectedPlayer)
       const newSelectedPlayers = [...chooses,selectedPlayer]
       setChooses(newSelectedPlayers)
+    }else{
+      return toast.error('this player already added')
+    }
+     
 
     }
+
+     console.log('unick Player',uniquePlayer)
+
+    
+   
     
 
 
