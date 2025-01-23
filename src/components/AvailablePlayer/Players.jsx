@@ -38,12 +38,6 @@ const Players = ({money}) => {
     }
 
      console.log('unick Player',uniquePlayer)
-
-    
-   
-    
-
-
    }
   return (
     <div>
@@ -53,13 +47,13 @@ const Players = ({money}) => {
           <button onClick={()=>setSelected(true)}  className="bg-lime-400  border-2 border-red-100-100 rounded-md px-3 py-2 ">
             Available
           </button>
-          <button onClick={()=>setSelected(false)} className="  border-2 border-orange-400 rounded-md px-3 py-2">Selected</button>
+          <button onClick={()=>setSelected(false)} className="  border-2 border-orange-400 rounded-md px-3 py-2">Selected {chooses?.length} </button>
         </div>
       </div>
 
       {/* available players cart */}
        {
-        selected ? <Cards handleChoosePlayer={handleChoosePlayer}></Cards> :<Selected setChooses={setChooses} chooses={chooses}></Selected>
+        selected ? <Cards handleChoosePlayer={handleChoosePlayer}></Cards> :<Selected setChooses={setChooses} chooses={chooses} setSelected={setSelected}></Selected>
        }
        <Toaster/>
     </div>
