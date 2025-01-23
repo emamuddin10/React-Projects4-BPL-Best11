@@ -37,7 +37,7 @@ const Players = ({money}) => {
 
     }
 
-     console.log('unick Player',uniquePlayer)
+     console.log('unick Player',uniquePlayer) 
    }
   return (
     <div>

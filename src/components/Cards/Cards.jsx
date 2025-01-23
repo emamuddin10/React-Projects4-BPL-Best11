@@ -6,7 +6,7 @@ const Cards = ({handleChoosePlayer}) => {
    const [players,setPlayers] = useState();
 
    useEffect(()=>{
-     fetch('/public/player.json')
+     fetch('player.json')
      .then(res=>res.json())
      .then(data=> setPlayers(data))
 
