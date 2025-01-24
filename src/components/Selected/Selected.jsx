@@ -14,9 +14,11 @@ const Selected = ({chooses,setChooses,setSelected}) => {
     return (
         <div>
             <h3>choses items</h3>
+            <div>
             {
                 chooses?.map((choose,idx) => (<ChoosesPlayer handleRemoveSelectedPlayer={handleRemoveSelectedPlayer} choose={choose}  key={idx} ></ChoosesPlayer>))
             }
+            </div>
 
          <button onClick={()=>setSelected(true)} className="mt-6  border-2 border-orange-400 rounded-md px-3 py-2">Add Player</button>
         </div>
